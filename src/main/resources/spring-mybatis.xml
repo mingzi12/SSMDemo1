@@ -47,8 +47,10 @@
     </bean>
 -->
 
+
+    <!--使用通用mapper-->
     <bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
-        <!--//配置扫描的mapper接口的路径，这个和配置mybatis一样-->
+        <!--//配置扫描的mapper接口的路径，这个和上面配置mybatis的org.mybatis.spring.mapper.MapperScannerConfigure一样-->
         <property name="basePackage" value="com.hmx.ssm.demo1.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
     </bean>

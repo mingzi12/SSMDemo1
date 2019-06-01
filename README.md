@@ -1,6 +1,7 @@
 Spring+SpringMVC+Mybatis整合。
 
 一、参考链接：https://www.cnblogs.com/wmyskxz/p/8916365.html https://blog.csdn.net/Cs_hnu_scw/article/details/80720206
+https://sq.163yun.com/blog/article/198894931418546176
 
 二、配置通用mapper步骤：
 1、配置tk.mybatis.spring.mapper.MapperScannerConfigurer替代org.mybatis.spring
